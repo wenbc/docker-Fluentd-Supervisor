@@ -1,5 +1,5 @@
 # docker-Fluentd-Supervisor
-安装部署Fluentd，并使用Supervisor监控Fluentd进程。本实例实现Fluentd 监控http日志，并上传到Amazond的S3，修改fluent.conf文件中S3存储桶的aws_key_id、aws_sec_key。你们可以根据业务的需求修改Fluentd目录下面的fluent.conf、supervisord.conf两个配置文件内容。
+安装部署Fluentd，并使用Supervisor监控Fluentd进程。本实例实现Fluentd 监控http日志，并上传到Amazon的S3，修改fluent.conf文件中S3存储桶的aws_key_id、aws_sec_key。你们可以根据业务的需求修改Fluentd目录下面的fluent.conf、supervisord.conf两个配置文件内容。
 
 首先，需要在你的系统中安装docker。安装请参考docker官方文档：
 
